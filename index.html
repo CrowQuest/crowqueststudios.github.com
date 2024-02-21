@@ -1,45 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Formas con CSS</title>
-<style>
-    .container {
-        display: flex;
-    }
-
-    .shape {
-        width: 100px;
-        height: 100px;
-        margin-right: 20px; /* Espacio entre las formas */
-    }
-
-    .cuadrado-cyan {
-        background-color: cyan;
-        border-radius: 45px;
-    }
-
-    .cuadrado-magenta {
-        background-color: magenta;
-        border-radius: 15px;
-        border-top-left-radius: 45px;
-        border-bottom-right-radius: 45px;
-    }
-
-    .cuadrado-amarillo {
-        background-color: yellow;
-        border-radius: 15px;
-        border-top-right-radius: 45px;
-        border-bottom-left-radius: 45px;
-    }
-</style>
-</head>
-<body>
-    <div class="container">
-        <div class="shape cuadrado-cyan"></div>
-        <div class="shape cuadrado-magenta"></div>
-        <div class="shape cuadrado-amarillo"></div>
-    </div>
-</body>
+<html lang="es">
+	<head>
+		<title>CrowQuest Studios</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/ico" href="./img/logo.png" sizes="64x64">
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/styles.css">
+	</head>
+	<body onload="Cargar('./html/start.html','body')">
+		<header>
+			<div class="name">
+				<img id="logo" src="./img/logo.png" alt="CrowQuest Studios Logo">
+				<h1 class="indexh1">CrowQuest Studios</h1>
+			</div>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-auto-close="outside">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#" onclick="Cargar('./html/start.html','body')">Start</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#" onclick="Cargar('./html/company.html','body')">Company</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#" onclick="Cargar('./html/projects.html','body')">Projects</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#" onclick="Cargar('./html/smallcodes.html','body')">Small Codes</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#" onclick="Cargar('./html/contact.html','body')">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div id="body">
+		</div>
+		<footer>&copy; 2024 CrowQuest Studios</footer>
+		<script src="./scripts/bootstrap.bundle.min.js"></script>
+		<script src="./scripts/libCapas2223.js"></script>
+		<script src="./scripts/scripts.js"></script>
+	</body>
 </html>
