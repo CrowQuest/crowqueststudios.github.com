@@ -1,0 +1,169 @@
+/* INDEX */
+
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #f6f6f6;
+	width: 100%;
+	height: 100%;
+}
+
+.indexh1 {
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	color: #333;
+}
+
+header {
+	z-index: 1;
+	padding: 10px;
+	background-color: white;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+header h1 {
+	font-size: 2.5em;
+}
+
+.name {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.name:hover {
+	background-color: red;
+	border-radius: 0.375rem;
+}
+
+.name:hover h1 {
+	color: white;
+}
+
+.navbar-toggler {
+	margin: 5px 0 0 0;
+}
+
+.navbar-collapse {
+	margin: 5px 0 0 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem red !important; /* Cambia el sombreado a rojo */
+}
+
+#logo {
+	padding: 0px 20px 0px 0px;
+	width: 60px;
+	height: 40px;
+}
+
+#body {
+	margin-top: 126px;
+	margin-bottom: 34.4px;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+}
+
+::selection {
+    background-color: red; /* Cambia el color de fondo del texto seleccionado a rojo */
+    color: white; /* Cambia el color del texto seleccionado a blanco */
+}
+
+footer {
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 8px;
+	background-color: white;
+	box-shadow: 0px -1px 3px rgba(0,0,0,0.1);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 0.8em;
+	color: #666;
+}
+
+/* START */
+
+.col-sm-12.col-md-6.col-lg-6.col-xl-6 {
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	vertical-align: middle;
+	font-size: 1.3em;
+}
+
+.startimg {
+	margin: auto;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+}
+
+/* COMPANY */
+
+.companyimg {
+	width: 50px;
+	height: 50px;
+	padding: 0;
+	margin-bottom: 16px;
+}
+
+#ajustar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* PROJECTS */
+
+.projectscenter {
+	margin-top: 100px;
+	text-align: center;
+}
+
+/* SMALL CODES */
+
+.smallcodescenter {
+	margin-top: 100px;
+	text-align: center;
+}
+
+/* CONTACT */
+
+.contactcenter {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.col-sm-6.col-md-3.col-lg-3.col-xl-3 {
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	vertical-align: middle;
+	padding-bottom: 8px;
+}
+
+.col-sm-6.col-md-3.col-lg-3.col-xl-3 a {
+	margin: auto;
+}
+
+.contactimg {
+	margin: auto;
+	width: 100%;
+	max-width: 100px;
+	height: auto;
+}
