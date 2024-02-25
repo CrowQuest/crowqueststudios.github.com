@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<div class="container">
-			<div class="row">
-				<div class="gameprojectscenter">
-					<a href="../builds/DropHunter/index.html">Drop Hunter</a>
-				</div>
+		<div id="projects">
+			<div class="product" onclick="openProductPanel('product1')">
+				<h2>Drop Hunter</h2>
+				<img src="./img/DropHunter.png" alt="Product 1">
+				<p>Play</p>
 			</div>
 		</div>
+		<div id="productPanel" class="panel">
+			<span class="close" onclick="closeProductPanel()">&times;</span>
+			<div id="productContent" class="content">
+			<!-- Contenido del panel del producto -->
+			</div>
+		</div>
+		<script src="script.js"></script>
 	</body>
 </html>
