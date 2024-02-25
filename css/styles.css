@@ -68,17 +68,17 @@ header h1 {
 }
 
 #body {
-	margin-top: 126px;
+	margin-top: 166px;
 	margin-bottom: 34.4px;
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-right: 40px;
 	padding-left: 40px;
 	padding-bottom: 40px;
 }
 
 ::selection {
-    background-color: red; /* Cambia el color de fondo del texto seleccionado a rojo */
-    color: white; /* Cambia el color del texto seleccionado a blanco */
+    background-color: red;
+    color: white;
 }
 
 footer {
@@ -96,7 +96,7 @@ footer {
 	color: #666;
 }
 
-/* START */
+/* HOME */
 
 .col-sm-12.col-md-6.col-lg-6.col-xl-6 {
 	display: flex;
@@ -128,16 +128,23 @@ footer {
 	justify-content: center;
 }
 
-/* PROJECTS */
+/* GAME PROJECTS */
 
-.projectscenter {
+.gameprojectscenter {
 	margin-top: 100px;
 	text-align: center;
 }
 
-/* SMALL CODES */
+/* ANIMATION PROJECTS */
 
-.smallcodescenter {
+.animationprojectscenter {
+	margin-top: 100px;
+	text-align: center;
+}
+
+/* CODE GAMES */
+
+.codegamescenter {
 	margin-top: 100px;
 	text-align: center;
 }
