@@ -1,0 +1,8 @@
+@media only screen and (min-width: 445px) {
+    canvas {
+        width: 90vw;
+        height: auto;
+        max-width: 960px;
+        max-height: 600px;
+    }
+}

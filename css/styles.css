@@ -68,12 +68,18 @@ header h1 {
 }
 
 #body {
-	margin-top: 166px;
+	margin-top: 146px;
 	margin-bottom: 34.4px;
 	padding-top: 40px;
 	padding-right: 40px;
 	padding-left: 40px;
 	padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 460px) {
+	#body {
+		margin-top: 196px;
+	}
 }
 
 ::selection {
@@ -128,9 +134,16 @@ footer {
 	justify-content: center;
 }
 
-/* GAME PROJECTS */
+/* NEWS */
+/* GAME */
 
-#projects {
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.projects {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
