@@ -29,13 +29,13 @@ function unityShowBanner(msg, type) {
   updateBannerVisibility();
 }
 
-var buildUrl = "Build";
+var buildUrl = "./DropHunter/Build";
 var loaderUrl = buildUrl + "/Nueva carpeta.loader.js";
 var config = {
   dataUrl: buildUrl + "/Nueva carpeta.data",
   frameworkUrl: buildUrl + "/Nueva carpeta.framework.js",
   codeUrl: buildUrl + "/Nueva carpeta.wasm",
-  streamingAssetsUrl: "StreamingAssets_DropHunter",
+  streamingAssetsUrl: "./DropHunter/StreamingAssets_DropHunter",
   companyName: "CrowQuest Studios",
   productName: "Drop Hunter",
   productVersion: "1.0",
