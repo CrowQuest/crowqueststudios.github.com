@@ -9,7 +9,7 @@ function getProductData(productID) {
     RandomDuels: {
       name: 'Random Duels',
       image: './img/RandomDuels.png',
-      description: 'Drop Hunter is an exciting 2D adventure game where you become an intrepid hunter facing monsters that descend from the sky. Your mission: collect items and weapons to improve your skills and increase your chances of survival. In this exciting challenge, every drop is an opportunity to get stronger and face the dangers that lurk from above. Get ready for an action-packed, adrenaline-pumping experience as you blast your way through hordes of enemies in Drop Hunter!',
+      description: 'Random Duels is an exciting dueling code game between the player and the machine. The player has six bullets just like the machine, the objective is to defeat the opponent by shooting him before running out of bullets or being defeated.',
       url:'RandomDuels.html'
     }
   };
