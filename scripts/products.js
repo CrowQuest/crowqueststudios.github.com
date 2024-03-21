@@ -25,7 +25,7 @@ function openProductPanel(productID) {
   productContent.innerHTML = `
     <h2>${productData.name}</h2>
     <img src="${productData.image}" alt="${productData.name}">
-    <p>Descripción: ${productData.description}</p>
+    <p>Description: ${productData.description}</p>
     <a href="${productData.url}" target="_blank">Play</a>
   `;
 

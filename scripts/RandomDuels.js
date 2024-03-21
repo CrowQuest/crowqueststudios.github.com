@@ -88,7 +88,7 @@ function moveBullets() {
 }
 
 function shootPlayer() {
-  if (playerBullets.length < player.maxBullets) { // Check if maximum number of bullets reached
+  if (playerBullets.length < player.maxBullets) {
     const bullet = {
       x: player.x + player.width / 2 - 2.5,
       y: player.y,
@@ -101,7 +101,7 @@ function shootPlayer() {
 }
 
 function shootEnemy() {
-  if (enemyBullets.length < enemy.maxBullets) { // Check if maximum number of bullets reached
+  if (enemyBullets.length < enemy.maxBullets) {
     const bullet = {
       x: enemy.x + enemy.width / 2 - 2.5,
       y: enemy.y + enemy.height,
@@ -148,6 +148,12 @@ function update() {
   drawBullets();
   moveBullets();
   checkCollision();
+
+  if (playerBullets.length === player.maxBullets && enemyBullets.length === enemy.maxBullets) {
+    setTimeout(() => {
+      isGameOver = true;
+    }, 2000);
+  }
 
   if (isGameOver) {
     document.getElementById('restartButton').style.display = 'block';
