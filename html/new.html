@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+        <div class="title">
+            <h1>The last upload</h1>
+        </div>
+		<div class="projects">
+			<div class="product" onclick="openProductPanel('DropHunter')">
+				<h2>Drop Hunter</h2>
+				<img src="./img/DropHunter.png" alt="Drop Hunter">
+				<p>Play</p>
+			</div>
+			<div class="product" onclick="openProductPanel('RandomDuels')">
+				<h2>Random Duels</h2>
+				<img src="./img/RandomDuels.png" alt="Random Duels">
+				<p>Play</p>
+			</div>
+		</div>
+		<div id="productPanel" class="panel">
+			<span class="close" onclick="closeProductPanel()">&times;</span>
+			<div id="productContent" class="content">
+			</div>
+		</div>
+	</body>
+</html>
